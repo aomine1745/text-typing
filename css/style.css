@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(https://aomine1745.github.io/Img/bg6.jpg);
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-blend-mode: soft-light;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+h1{
+	position: absolute;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: consolas;
+	margin: 0;
+	padding: 0;
+	color: transparent;
+}
+h1:before{	
+	content: attr(data-text);
+	position: absolute;
+	color: #fff;
+	overflow: hidden;
+	animation: type 10s steps(30) infinite;
+	border-right: 1px solid #fff;
+	
+	white-space: nowrap;
+}
+@keyframes type{
+	0%{
+		width: 0;
+	}
+	50%{
+		width: 100%;
+	}
+
+	100%{
+		width: 0;
+	}
+
+}
