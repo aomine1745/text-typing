@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(https://aomine1745.github.io/Img/bg6.jpg);
+	background-image: url('https://images.unsplash.com/photo-1609342122563-a43ac8917a3a?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDkxfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1440&q=60');
 	background-size: cover;
 	background-color: rgba(0, 0, 0, 0.5);
 	background-blend-mode: soft-light;
